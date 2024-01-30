@@ -31,5 +31,6 @@ Check that python's GPIO package (rpi.gpio) is installed:
 
 
 
+### Markdown insert picture:
 
-##
+    ![image info](./pictures/image.png)
