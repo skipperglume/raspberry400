@@ -39,4 +39,7 @@ Activate ssh-connection via configuration menu
     ssh-keygen -t ed25519 -C "your_email@example.com"
 
 
+![pinout](./imageSource/pinout.png)
+### Markdown insert picture:
 
+    ![image info](./pictures/image.png)
