@@ -43,3 +43,7 @@ Activate ssh-connection via configuration menu
 ### Markdown insert picture:
 
     ![image info](./pictures/image.png)
+
+#### Command to save string\byte output to file
+
+    [command_to_execute] 2>&1  | xargs -I _  echo _ > delete.txt
