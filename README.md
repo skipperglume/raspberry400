@@ -47,3 +47,8 @@ Activate ssh-connection via configuration menu
 #### Command to save string\byte output to file
 
     [command_to_execute] 2>&1  | xargs -I _  echo _ > delete.txt
+
+
+### ngrok
+
+ - ngrok
