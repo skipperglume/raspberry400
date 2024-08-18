@@ -55,6 +55,15 @@ Activate ssh-connection via configuration menu
 
     ![image info](./pictures/image.png)
 
+#### Command to save string\byte output to file
+
+    [command_to_execute] 2>&1  | xargs -I _  echo _ > delete.txt
+
+
+### ngrok
+
+ - ngrok
+
 
 ### Changing shortcuts
 In the file ==/etc/xdg/openbox/lxde-pi-rc.xml==.
