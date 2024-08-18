@@ -20,7 +20,14 @@ Or:
 Check that python's GPIO package (rpi.gpio) is installed:
 
     sudo apt install python3-rpi.gpio
+    
+There are few options when it comes down to Input output pins modes.
+- `GPIO.BOARD` referring to pins by the number on board.
+- `GPIO.BCM` referring to pins be the number on Broadcom SOC channel i.e. the device pinout.
 
+There are alo several pin groups:
+- I2C 
+- SPI
 
 ## Some extra changes:
 
@@ -37,9 +44,26 @@ Activate ssh-connection via configuration menu
 [Link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for basic ssh key generation as well as ssh agent:
 
     ssh-keygen -t ed25519 -C "your_email@example.com"
+### Hostname
 
+    hostname -I
 
+### Pinout of Raspberry Pi
 ![pinout](./imageSource/pinout.png)
+![pinout](./imageSource/pinout.jpg)
 ### Markdown insert picture:
 
     ![image info](./pictures/image.png)
+
+
+### Changing shortcuts
+In the file ==/etc/xdg/openbox/lxde-pi-rc.xml==.
+
+
+### Checking os release:
+My release of `Raspbian GNU/Linux` OS is `bullseye`. Check yours by:
+
+    cat /etc/os-release
+
+
+
